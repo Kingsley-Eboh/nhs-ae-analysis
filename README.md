@@ -9,8 +9,8 @@ administrative data into actionable insights.
 
 **Author:** Kingsley Eboh  
 **Dataset:** NHS England Monthly A&E Attendances and Emergency Admissions — March 2026  
-**Tools:** Python, Pandas, Matplotlib, Seaborn  
-**Skills:** Data Cleaning, Exploratory Data Analysis (EDA), Statistical Summarisation, Trend Analysis, Data Visualisation
+**Tools:** Python, Pandas, Matplotlib, Seaborn, PostgreSQL, SQL, DBeaver  
+**Skills:** Data Cleaning, Exploratory Data Analysis (EDA), Statistical Summarisation, Trend Analysis, Data Visualisation, SQL Querying
 
 ---
 
@@ -18,6 +18,7 @@ administrative data into actionable insights.
 ```
 nhs-ae-analysis/
 ├── nhs_ae_analysis.ipynb                  # Main Jupyter Notebook
+├── nhs_ae_queries.sql                     # SQL analysis queries
 ├── March-2026-CSV-G49lw.csv               # Source data (NHS England)
 ├── top10_attendances.png                  # Analysis 1 chart
 ├── worst10_4hr_performance.png            # Analysis 2 chart
