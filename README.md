@@ -40,7 +40,6 @@ England, translating raw administrative data into actionable insights.
 | PostgreSQL & SQL | Data querying and aggregation |
 | DBeaver | SQL database interface |
 | Jupyter Notebook | Interactive analysis environment |
-| Git & GitHub | Version control and portfolio hosting |
 
 ---
 
@@ -79,6 +78,7 @@ England, translating raw administrative data into actionable insights.
 ---
 
 ## Project Structure
+```
 nhs-ae-analysis/
 ├── nhs_ae_analysis.ipynb                  # Main Jupyter Notebook
 ├── nhs_ae_queries.sql                     # SQL analysis queries
@@ -90,7 +90,7 @@ nhs-ae-analysis/
 ├── analysis5_summary.png                  # Analysis 5 summary chart
 ├── .gitignore                             # Excludes Jupyter checkpoints
 └── README.md                              # Project documentation
-
+```
 ---
 
 ## How to Run
