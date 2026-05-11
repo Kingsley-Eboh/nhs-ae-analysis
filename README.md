@@ -1,3 +1,8 @@
+![Platform](https://img.shields.io/badge/Platform-Python_3.12-blue)
+![Tool](https://img.shields.io/badge/Tool-Jupyter_Notebook-orange)
+![Domain](https://img.shields.io/badge/Domain-Healthcare_Analytics-lightgrey)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
 # NHS A&E Attendance & Performance Analysis
 ## Single Month Snapshot | March 2026
 
@@ -77,22 +82,6 @@ England, translating raw administrative data into actionable insights.
 
 ---
 
-## Project Structure
-```
-nhs-ae-analysis/
-├── nhs_ae_analysis.ipynb                  # Main Jupyter Notebook
-├── nhs_ae_queries.sql                     # SQL analysis queries
-├── March-2026-CSV-G49lw.csv               # Source data (NHS England)
-├── top10_attendances.png                  # Analysis 1 chart
-├── worst10_4hr_performance.png            # Analysis 2 chart
-├── long_waits.png                         # Analysis 3 chart
-├── analysis4_emergency_admissions.png     # Analysis 4 chart
-├── analysis5_summary.png                  # Analysis 5 summary chart
-├── .gitignore                             # Excludes Jupyter checkpoints
-└── README.md                              # Project documentation
-```
----
-
 ## How to Run
 1. Clone the repository:
 ```bash
@@ -115,11 +104,43 @@ jupyter notebook
 
 ---
 
-## Author
-**Kingsley Eboh**  
-[GitHub](https://github.com/Kingsley-Eboh)
+## Project Structure
+```
+nhs-ae-analysis/
+├── nhs_ae_analysis.ipynb                  # Main Jupyter Notebook
+├── nhs_ae_queries.sql                     # SQL analysis queries
+├── March-2026-CSV-G49lw.csv               # Source data (NHS England)
+├── top10_attendances.png                  # Analysis 1 chart
+├── worst10_4hr_performance.png            # Analysis 2 chart
+├── long_waits.png                         # Analysis 3 chart
+├── analysis4_emergency_admissions.png     # Analysis 4 chart
+├── analysis5_summary.png                  # Analysis 5 summary chart
+├── .gitignore                             # Excludes Jupyter checkpoints
+└── README.md                              # Project documentation
+```
 
 ---
 
-*Data sourced from NHS England. This project is intended for portfolio and
-educational purposes.*
+## Evidence
+
+### Analysis 1 — Total A&E Attendances by Organisation
+[![top10_attendances](top10_attendances.png)](top10_attendances.png)
+
+### Analysis 2 — 4-Hour Waiting Time Performance
+[![worst10_4hr_performance](worst10_4hr_performance.png)](worst10_4hr_performance.png)
+
+### Analysis 3 — Long Waiting Times: Decision to Admit
+[![long_waits](long_waits.png)](long_waits.png)
+
+### Analysis 4 — Emergency Admissions via A&E
+[![analysis4_emergency_admissions](analysis4_emergency_admissions.png)](analysis4_emergency_admissions.png)
+
+### Analysis 5 — Key Findings Summary
+[![analysis5_summary](analysis5_summary.png)](analysis5_summary.png)
+
+## Author
+
+Kingsley Eboh
+[GitHub](https://github.com/Kingsley-Eboh)
+
+Data sourced from NHS England. This project is intended for portfolio and educational purposes.
